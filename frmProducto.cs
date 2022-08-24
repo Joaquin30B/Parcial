@@ -98,12 +98,7 @@ namespace Parcial
 
         private void tsbEliminar_Click(object sender, EventArgs e)
         {
-            string eliminar = "DELETE FROM Producto WHERE Nombre = @nombre";
-
-            if (dgvListado.executeCommand(eliminar))
-            {
-
-            }
+           
         }
     }
 }

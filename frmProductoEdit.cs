@@ -67,7 +67,6 @@ namespace Parcial
                 }
             }
         }
-
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             decimal precio;
